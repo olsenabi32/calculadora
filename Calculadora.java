@@ -36,6 +36,10 @@ public class Calculadora {
         }
         return true;
     }
+    public static int modulo(int dividend, int divisor) {
+        return dividend % divisor;
+    }
+
 
 	private int valor1;
 	private int valor2;
