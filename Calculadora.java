@@ -37,6 +37,11 @@ public class Calculadora {
         return true;
     }
 
+    public static int modulo(int num1, int num2) {
+        return num1 % num2;
+    }
+
+
 	private int valor1;
 	private int valor2;
 }
